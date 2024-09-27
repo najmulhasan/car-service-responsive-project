@@ -20,8 +20,8 @@ a:hover {
     color: tomato;
 }
 
-.card-img {
-    height: 400px;
+.card img {
+    width: auto;
 }
 
 
@@ -31,4 +31,44 @@ a:hover {
     padding: 0;
     box-sizing: border-box;
     color: white;
+}
+
+.card-img-center {
+    margin: 0, auto;
+    position: relative;
+}
+
+.card-1 img {
+    width: 500px;
+    height: 300px;
+}
+
+@media screen and (max-width: 7680px) {
+    .container {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 7680px) {
+    .card-1 {
+        display: inline;
+    }
+}
+
+.container-social-media {
+    border: 1px solid gray;
+}
+
+@media screen and (max-width: 7680px) {
+    .container-social-media {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 7680px) {
+    .btn {
+        margin-left: -0;
+    }
+
 }
